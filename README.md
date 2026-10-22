@@ -1,17 +1,30 @@
-# photo_of_the_day_vovk
+# Лабораторная №8
+## В этой лабораторной мы изучили FUTURE, а также делали сайт, который показывает рандомные фото
+___
+## Вовк Тимофей ИСП-242
 
-A new Flutter project.
+**Flutter**: 3.47.6
+**Dart**: 3.13.5
+**Browser**: Brave
+**Пакет**: http
 
-## Getting Started
+![Скриншот](img/step1_vovk.png)
 
-This project is a starting point for a Flutter application.
+## Запуск
+1. `git clone <https://github.com/Westigrannik/Flutter_photo_of_the_day>`
+2. `cd photo_of_the_day`
+3. `flutter pub get`
+4. `flutter run -d chrom
 
-A few resources to get you started if this is your first Flutter project:
+## Что изучили
+1. Что такое Future
+2. Как пользоваться Future
+3. подробней изучили как работать с классами
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Ответы на вопросы
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Future<T> это возращаемый объект, который позволяет вернуть объект ПОТОМ.
+2. await завершает Future, при этом не блокируя поток
+3. Чтобы управлять состоянием во время загрузки
+4. Потому что это является ссылкой на функцию
+5. Тем, что image.network берёз картинку из сети, когда image.asset() из файлов на компьютере.
